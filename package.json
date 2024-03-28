@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "port": "^0.8.1"
+  },
+  "scripts": {
+    "start": "node_modules/port/examples/simple/test.js"
+  }
+}

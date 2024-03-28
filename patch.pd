@@ -1,0 +1,9 @@
+#N canvas 1036 276 692 441 12;
+#X obj 126 141 print;
+#X obj 121 116 netreceive 1112;
+#X obj 319 121 netsend 1111;
+#X msg 434 136 John;
+#X obj 323 157 print result;
+#X connect 1 0 0 0;
+#X connect 2 0 4 0;
+#X connect 3 0 4 0;
